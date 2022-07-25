@@ -70,7 +70,7 @@
             </fileSets>
         </module>
 
-        <module id="${module4}" dir="ctrl-frontend" name="${module4}">
+        <module id="${module4}" dir="ctrl-util" name="${module4}">
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/main/java</directory>
