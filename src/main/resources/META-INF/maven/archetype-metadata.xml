@@ -6,27 +6,27 @@
     <requiredProperties>
 
         <requiredProperty key="module1">
-            <defaultValue>${artifactId}-rest</defaultValue>
+            <defaultValue>rest</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module2">
-            <defaultValue>${artifactId}-controller</defaultValue>
+            <defaultValue>controller</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module3">
-            <defaultValue>${artifactId}-domain</defaultValue>
+            <defaultValue>domain</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module4">
-            <defaultValue>${artifactId}-util</defaultValue>
+            <defaultValue>util</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module5">
-            <defaultValue>${artifactId}-service</defaultValue>
+            <defaultValue>service</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module6">
-            <defaultValue>${artifactId}-entity</defaultValue>
+            <defaultValue>entity</defaultValue>
         </requiredProperty>
 
     </requiredProperties>
