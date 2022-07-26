@@ -6,23 +6,23 @@
     <requiredProperties>
 
         <requiredProperty key="module1">
-            <defaultValue>rest</defaultValue>
+            <defaultValue>ctrl-rest</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module2">
-            <defaultValue>controller</defaultValue>
+            <defaultValue>ctrl-controller</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module3">
-            <defaultValue>domain</defaultValue>
+            <defaultValue>ctrl-domain</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module4">
-            <defaultValue>util</defaultValue>
+            <defaultValue>ctrl-util</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module5">
-            <defaultValue>service</defaultValue>
+            <defaultValue>ctrl-service</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module6">
