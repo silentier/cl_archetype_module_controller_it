@@ -6,23 +6,27 @@
     <requiredProperties>
 
         <requiredProperty key="module1">
-            <defaultValue>rest</defaultValue>
+            <defaultValue>${artifactId}-rest</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module2">
-            <defaultValue>controller</defaultValue>
+            <defaultValue>${artifactId}-controller</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module3">
-            <defaultValue>domain</defaultValue>
+            <defaultValue>${artifactId}-domain</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module4">
-            <defaultValue>util</defaultValue>
+            <defaultValue>${artifactId}-util</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module5">
-            <defaultValue>service</defaultValue>
+            <defaultValue>${artifactId}-service</defaultValue>
+        </requiredProperty>
+
+        <requiredProperty key="module6">
+            <defaultValue>${artifactId}-entity</defaultValue>
         </requiredProperty>
 
     </requiredProperties>
@@ -85,6 +89,20 @@
         </module>
 
         <module id="${module5}" dir="ctrl-service" name="${module5}">
+            <fileSets>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/main/java</directory>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                </fileSet>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/test/java</directory>
+                </fileSet>
+            </fileSets>
+        </module>
+
+        <module id="${module6}" dir="ctrl-entity" name="${module6}">
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/main/java</directory>
