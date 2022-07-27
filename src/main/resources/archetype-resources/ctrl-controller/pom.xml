@@ -28,6 +28,26 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>${groupId}</groupId>
+      <artifactId>${module3}</artifactId>
+      <version>${version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${groupId}</groupId>
+      <artifactId>${module6}</artifactId>
+      <version>${version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${groupId}</groupId>
+      <artifactId>${module5}</artifactId>
+      <version>${version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${groupId}</groupId>
+      <artifactId>${module4}</artifactId>
+      <version>${version}</version>
+    </dependency>
   </dependencies>
 
   <build>

@@ -26,7 +26,7 @@
         </requiredProperty>
 
         <requiredProperty key="module6">
-            <defaultValue>entity</defaultValue>
+            <defaultValue>ctrl-entity</defaultValue>
         </requiredProperty>
 
     </requiredProperties>
